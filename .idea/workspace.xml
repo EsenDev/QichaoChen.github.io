@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0072cb89-48c2-48b3-bf70-305bd8c47b52" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Android001.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Java001.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bio-icon-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bio-icon-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts-email.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts-weibo.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="QichaoChen.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45238096" vertical-offset="1377" max-vertical-offset="3247">
-              <caret line="100" column="43" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.9285714" vertical-offset="0" max-vertical-offset="3247">
+              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -514,8 +503,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45238096" vertical-offset="1377" max-vertical-offset="3247">
-          <caret line="100" column="43" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.9285714" vertical-offset="0" max-vertical-offset="3247">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
           <folding />
         </state>
       </provider>

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0072cb89-48c2-48b3-bf70-305bd8c47b52" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/donation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/donation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="QichaoChen.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,20 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="10.615385" vertical-offset="514" max-vertical-offset="3281">
-              <caret line="14" column="14" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.39915967" vertical-offset="2503" max-vertical-offset="3264">
+              <caret line="164" column="104" selection-start-line="0" selection-start-column="0" selection-end-line="186" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="donation.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="donation.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/donation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5952381" vertical-offset="255" max-vertical-offset="969">
+            <state vertical-scroll-proportion="-16.346153" vertical-offset="255" max-vertical-offset="969">
               <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
               <folding />
             </state>
@@ -74,9 +70,9 @@
       <list>
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/donation.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -573,18 +569,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/donation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.615385" vertical-offset="514" max-vertical-offset="3281">
-          <caret line="14" column="14" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="32" />
+        <state vertical-scroll-proportion="-16.346153" vertical-offset="255" max-vertical-offset="969">
+          <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/donation.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5952381" vertical-offset="255" max-vertical-offset="969">
-          <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.39915967" vertical-offset="2503" max-vertical-offset="3264">
+          <caret line="164" column="104" selection-start-line="0" selection-start-column="0" selection-end-line="186" selection-end-column="7" />
           <folding />
         </state>
       </provider>

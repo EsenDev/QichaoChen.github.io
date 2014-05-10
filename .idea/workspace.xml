@@ -1,58 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0072cb89-48c2-48b3-bf70-305bd8c47b52" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/font/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/ie/PIE.htc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/ie/backgroundsize.min.htc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/ie/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/ie/images/content-style1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/ie/images/content-style2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/ie/images/content-style3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/ie/v8.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/ie/v9.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/images/arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/images/bgbl.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/images/bgtr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/images/dark-arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/images/overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/skel-noscript.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style-mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style-narrow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style-normal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style-wide.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/donation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Android001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Java001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/aboutme.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bg5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bg8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bio-icon-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bio-icon-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/contacts-email.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/contacts-weibo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/donation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pic01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pic02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pic03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pic04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pic05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pic06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pic07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/skel.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0072cb89-48c2-48b3-bf70-305bd8c47b52" name="Default" comment="" />
     <ignored path="QichaoChen.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />

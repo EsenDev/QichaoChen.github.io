@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 _idea/*
 _site/*
 _theme_packages/*
@@ -11,3 +12,6 @@ Thumbs.db
 .rvmrc
 
 *.swp
+=======
+.idea/*
+>>>>>>> 3191f2c22fe2fa13e4e0b428ce23c0aef1da951c

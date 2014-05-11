@@ -73,7 +73,7 @@ index: 2
 
 ###视频持续更新中...
 
-##《进击的Java》系列视频教程更新详情 - [优酷专辑]
+##《进击的Java》系列视频教程更新详情 - [优酷专辑](http://www.youku.com/playlist_show/id_22136236.html)
 
 * Java Advanced Q_A Tutorial 001 - Java和Android的关系 001 - 开发环境配置01
 

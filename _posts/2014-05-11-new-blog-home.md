@@ -3,7 +3,7 @@ layout: post
 keywords: blog
 description: blog
 title: "搬新家了^_^"
-categories: [notes]
+categories: [android]
 tags: [Jekyll]
 ---
 {% include codepiano/setup %}

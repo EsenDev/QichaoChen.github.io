@@ -10,7 +10,6 @@ tags: [math]
 
 相信了解过RSA公钥加密解密算法的同学一定会佩服Ron Rivest、Adi Shamir、Leonard Adleman三个牛人的智慧（据说Shamir某年某月还来过我们学校，题外话）
 RSA算法的详细内容就不说了，下面先列举RSA的基本元素：
-第一种：通过StrictMode来忽视新版本限制（当然这种方法简单粗暴，不是很推荐！）
 
 {% highlight ruby %}
 

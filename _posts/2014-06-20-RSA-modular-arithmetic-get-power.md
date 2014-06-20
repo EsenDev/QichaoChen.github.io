@@ -43,157 +43,16 @@ RSA算法的详细内容就不说了，下面先列举RSA的基本元素：
 综合上面三个原理给力给出程序伪代码如下：
 
 {% highlight ruby %}
-    c <- 0;
-    f <- 1;
-    for i <-k downto 0
-        do c <- 2 * c
-           f <- (f * f) mod n
+    c =  0;
+    f =  1;
+    for i = k downto 0
+        do c =  2 * c
+           f =  (f * f) mod n
         if bi = 1
-            c <- c+ 1
-            f <- (f * a) mod
+            c =  c+ 1
+            f =  (f * a) mod
     return f;
 {% endhighlight %}
 
-经过简单的数学处理，便可以轻易计算巨大的幂运算！神奇！！！看不懂的同学在纸上画一画，写一写就能明白启动的道理了，下面给出整个RSA整数的加密和解密算法实现Java代码
-
-{% highlight ruby %}
-
-/**
- * Created with IntelliJ IDEA.
- * Time: 20:04
- * Info:
- */
-public class RSA {
-
-    private int p, q; //p,q均为素数
-    private int n; //pq乘积
-    private int e;//公钥
-    private int d;//私钥
-    private int M;//明文
-    private int C;//密文
-    private int phi_n;//欧拉数
-
-    public RSA() {
-
-    }
-
-    public RSA(int p, int q, int e) {
-        this.p = p;
-        this.q = q;
-        this.e = e;
-    }
-
-    public int RSAEncryption(int m) {
-        M = m;
-        double c = 0;//密文
-        if (isPrime(p) && isPrime(q)) {
-            n = p * q;
-            phi_n = (p - 1) * (q - 1);
-            if (e > 1 && e < phi_n && gcd(e,phi_n) == 1){
-                //密钥e满足: 1 < e < phi_n && gcd(e,phi_n) = 1
-                for(int i = 1;i < phi_n;i++){
-                    //e的乘法逆元存在且唯一
-                    if((i * e) % phi_n == 1){
-                        d = i;
-                    }
-                }
-                if (M < n){
-                    //明文须小于n
-                    //加密
-                    //由于设计高幂运算精度原因c不能定义为整型，而应该是double
-                    c = (Math.pow(M,e)) % n;
-                    C = (int)c;
-                }
-
-        return (int)c;
-    }
-
-    public int RSADecryption(int c){ //RSA解密
-        return (int)((Math.pow(c,d)) % n);
-    }
-
-    private boolean isPrime(int number) {判断一个数是否是素数
-        if (number < 2) {
-            return false;
-        }
-        if (number == 2) {
-            return true;
-        }
-
-        for (int i = 3; i <= Math.sqrt(number); i++) {
-            if (number % i == 0) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    private int gcd(int a, int b) {//递归求最大公约数
-        int A, B;
-        if (a < b) {
-            int t = a;
-            a = b;
-            b = t;
-        }
-        A = a;
-        B = b;
-        if (B == 0) {
-            return A;
-        } else {
-            return gcd(B, A % B);
-        }
-    }
-
-    public int getD() {
-        return d;
-    }
-
-    public int getE() {
-        return e;
-    }
-
-    public int getN() {
-        return n;
-    }
-
-    public long mosuanshu(int a,int b,int n){
-        //模算数的求幂运算：原理 (a mod n) * (b mod n) = (a * b) mod n;
-        // a^b mod = E(a^ci) mod n,其中E为连积，ci = bi * 2^i,b = E(ci)
-        //转化为二进制数
-        String binaryStr = Integer.toBinaryString(b);
-        List<Integer> bi_list = new ArrayList<Integer>();
-        for (int i = binaryStr.length()-1; i >= 0;i--){
-            int t = Integer.parseInt(String.valueOf(binaryStr.charAt(i)));
-            bi_list.add(t);
-        }
-        int c = 0;
-        long result = 1;
-        for (int j = bi_list.size() - 1;j>=0;j--){
-            c = 2 * c;
-            result = (result * result) % n;
-            if (bi_list.get(j) == 1){
-                c = c + 1;
-                result = (result * a) % n;
-                System.out.println("\n"+result);
-            }
-        }
-        return result;
-    }
-
-    public static void main(String[] args) {
-        int p = 17;
-        int q = 11;
-        int e = 7;
-        int M = 88;
-        RSA rsa = new RSA(p,q,e);
-        int c = rsa.RSAEncryption(M);
-        System.out.printf("公钥PU = {%d,%d}",rsa.getE(),rsa.getN());
-        System.out.println("明文M="+M+",经过RSA加密后得到密文C为:"+c);
-        int m = rsa.RSADecryption(c);
-        System.out.println("密文C="+c+",经过RSA解密后得到明文M为:"+m);
-        long f = rsa.mosuanshu(11,23,187);
-        System.out.println(f);
-    }
-}
-
-{% endhighlight %}
+经过简单的数学处理，便可以轻易计算巨大的幂运算！神奇！！！看不懂的同学在纸上画一画，写一写就能明白启动的道理了，下面给出整个RSA整数的加密和解密算法
+实现[Java代码](http://qichaochen.github.io/apk/rsa.md)

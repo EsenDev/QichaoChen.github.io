@@ -2,7 +2,7 @@
 layout: post
 keywords: blog
 description: blog
-title: RSA公钥算法中的模算数求幂运算"
+title: RSA公钥算法中的模算数求幂运算
 categories: [math]
 tags: [math]
 ---

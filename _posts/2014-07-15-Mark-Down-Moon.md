@@ -2,7 +2,7 @@
 layout: post
 keywords: mood
 description: mood
-title: MarkDown一下过去的日志
+title: MarkDown一下过去的日子
 categories: [mood]
 tags: [mood]
 ---
